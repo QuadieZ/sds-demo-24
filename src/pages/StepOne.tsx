@@ -1,5 +1,5 @@
 // setting up tiptap editor
-import { EditorProvider, BubbleMenu, useCurrentEditor } from "@tiptap/react";
+import { EditorProvider } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 
 function TiptapEditor() {
@@ -15,7 +15,7 @@ function TiptapEditor() {
           },
         }}
       >
-        <BubbleMenu>This is the bubble menu</BubbleMenu>
+        <div />
       </EditorProvider>
     </div>
   );

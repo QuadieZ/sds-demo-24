@@ -1,5 +1,5 @@
 // setting up tiptap editor
-import { EditorProvider, BubbleMenu, useCurrentEditor } from "@tiptap/react";
+import { EditorProvider } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import { RoomProvider, useRoom } from "../liveblocks.config";
 import { ClientSideSuspense } from "@liveblocks/react";
@@ -37,7 +37,7 @@ function TiptapEditor({ doc, provider }: EditorProps) {
           },
         }}
       >
-        <BubbleMenu>This is the bubble menu</BubbleMenu>
+        <div />
       </EditorProvider>
     </div>
   );
