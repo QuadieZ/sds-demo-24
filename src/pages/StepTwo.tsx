@@ -1,4 +1,4 @@
-// setting up tiptap editor
+// Adding the room provider
 import { EditorProvider } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import { RoomProvider } from "../liveblocks.config";

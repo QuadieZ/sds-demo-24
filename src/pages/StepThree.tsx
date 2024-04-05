@@ -1,4 +1,5 @@
-// setting up tiptap editor
+// Create room, yDoc, and connect to editor
+
 import { EditorProvider } from "@tiptap/react";
 import StarterKit from "@tiptap/starter-kit";
 import { RoomProvider, useRoom } from "../liveblocks.config";
